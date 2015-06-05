@@ -1,4 +1,4 @@
-// Takes in 2 numbers, and prints out the numbers between them that are palindromes
+// Takes in 2 numbers, and prints out the numbers between them that are palindromes 
 
 import java.util.ArrayList;
 import java.util.List;
