@@ -11,13 +11,14 @@ public class Exponent {
 			// System.out.println(total); // for debugging
 		}
 		
-		// outputs "3 ^ 2 = " to make it clearer to the user
+		// outputs "base ^ exponent = " to make it clearer to the user
 		System.out.print(base + " ^ " + exponent + " = ");
 		
 		return total;
 	}
 
 	public static void main(String[] args) {
+		// sample base and exponent
 		System.out.print(getExponent(8, 5)); // outputs 8.0 ^ 5 = 32768.0
 	}
 
