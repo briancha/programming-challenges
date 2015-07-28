@@ -17,6 +17,7 @@ import java.awt.GridLayout;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -183,10 +184,11 @@ public class TimeClock extends JFrame implements KeyListener {
 		// If there is an existing Excel file, the program reads that file		
 		if (excelSpreadsheet.exists()) {
 			try {
-				// HSSFReadWrite is from: http://svn.apache.org/repos/asf/poi/trunk/src/examples/src/org/apache/poi/hssf/usermodel/examples/HSSFReadWrite.java
+				// Found this way to read existing file on: 
+				// http://svn.apache.org/repos/asf/poi/trunk/src/examples/src/org/apache/poi/hssf/usermodel/examples/HSSFReadWrite.java
 				// Found under "Reading or modifying an existing file": http://poi.apache.org/spreadsheet/how-to.html
-				// I saved HSSFReadWrite.java into the same directory as TimeClock.java 
-				workbook = HSSFReadWrite.readFile(fileName);
+				workbook = new HSSFWorkbook(new FileInputStream(fileName)); 
+				// previous method using HSSFReadWrite.java: HSSFReadWrite.readFile(fileName);
 				System.out.println("Reading existing file");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
