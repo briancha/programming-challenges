@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Valid Parentheses&apos;" deleteContents="false" description="Delete resource &apos;Valid Parentheses&apos;" element1="/Valid Parentheses" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1434975041928"/>&#x0A;<refactoring comment="Delete resource &apos;BasicWidgets&apos;" deleteContents="false" description="Delete resource &apos;BasicWidgets&apos;" element1="/BasicWidgets" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1435016087856"/>
+</session>

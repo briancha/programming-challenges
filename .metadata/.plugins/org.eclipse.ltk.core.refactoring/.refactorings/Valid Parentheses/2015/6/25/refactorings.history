@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;validParentheses.isValid(...)&apos; to &apos;numPairs&apos;&#x0D;&#x0A;- Original project: &apos;Valid Parentheses&apos;&#x0D;&#x0A;- Original element: &apos;validParentheses.isValid(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;validParentheses.numPairs(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;isValid&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/&lt;{validParentheses.java[validParentheses~isValid~QString;" name="numPairs" references="true" stamp="1434769019014" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;Exponent.exponent(...)&apos; to &apos;getExponent&apos;&#x0D;&#x0A;- Original project: &apos;Exponentiation&apos;&#x0D;&#x0A;- Original element: &apos;Exponent.exponent(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;Exponent.getExponent(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;exponent&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/&lt;{Exponent.java[Exponent~exponent~I~I" name="getExponent" references="true" stamp="1436578579191" version="1.0"/>
+</session>

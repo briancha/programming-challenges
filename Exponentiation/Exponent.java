@@ -21,5 +21,4 @@ public class Exponent {
 		// sample base and exponent
 		System.out.print(getExponent(8, 5)); // outputs 8.0 ^ 5 = 32768.0
 	}
-
 }
