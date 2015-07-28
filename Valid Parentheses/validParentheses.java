@@ -40,10 +40,11 @@ public class validParentheses {
 	
 	public static void main(String[] args) {
 		// test cases
-		System.out.println(numPairs("((()))"));
-		System.out.println(numPairs("(()))("));
-		System.out.println(numPairs("(()"));
-		System.out.println(numPairs("())"));
+		System.out.println("Counting number of pairs: ");
+		System.out.println("((())): " + numPairs("((()))"));
+		System.out.println("(()))(: " + numPairs("(()))("));
+		System.out.println("(()): " + numPairs("(())"));
+		System.out.println("((())()): " + numPairs("((())())"));
 	}
 
 }
