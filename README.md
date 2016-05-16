@@ -7,6 +7,7 @@
 * Operating Systems (C): projects for Operating Systems class. Written in C.
 * PlusMinus: For a list of positive integers, see if it is possible to insert plus or minus signs in front of each positive integer in the list, so that the result equals a positive integer in that list. Contains Java and Scheme implementations.
 * Print Next Highest Octal Number: takes in an octal number with 8 different digits and prints out the next highest octal number with 8 different digits
+* Solitaire: Command line version of popular Solitaire game (1-card draw)
 * Time Clock: allows employees to clock in and clock out using their own 4-digit PIN. More info: https://www.brianchan.me/time-clock.html
 * Valid Parentheses: checks a certain set of parentheses, i.e. ((())()), and returns the number of parentheses pairs there are
 
