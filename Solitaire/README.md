@@ -6,6 +6,8 @@
 * If a game can be won (all tableau cards are face up and draw piles and drawn cards piles are empty), offers an autocomplete feature to add all the tableau cards to the foundation stacks automatically and win the game for you.
 * Keeps track of the top 10 recorded scores and notifies you if you crack the top 10
   * Stores scores on an Excel spreadsheet (Apache POI) for later retrieval
+
+https://www.brianchan.me/solitaire.html
   
 Sample Game:
 ```
