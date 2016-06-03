@@ -1,13 +1,18 @@
 # Solitaire
 * Command line version of popular Solitaire game (1-card draw)
 * Use the keyboard to draw cards, move cards to the tableau piles or a foundation stack, or undo a draw
-* Choose a card by entering its name on the command line (case insensitive), i.e. "AD" for ace of diamonds
+* Choose a card by entering its name on the command line (case insensitive), i.e. `AD` for ace of diamonds
 * Adds/subtracts points to your score based on certain actions in the game, i.e. adding a drawn card to a tableau pile, adding a card to a foundation stack, restarting the draw pile, revealing a new card in a tableau pile
+* Offers a hint feature in case users don't know what to do, i.e. `Move 6S to pile 7`.
 * If a game can be won (all tableau cards are face up and draw piles and drawn cards piles are empty), offers an autocomplete feature to add all the tableau cards to the foundation stacks automatically and win the game for you.
 * Keeps track of the top 10 recorded scores and notifies you if you crack the top 10
   * Stores scores on an Excel spreadsheet (Apache POI) for later retrieval
+  
+## AI player
+* Uses the hint feature for the program to play itself
+* Wins about 50% of games
 
-https://www.brianchan.me/solitaire.html
+For more info, go to https://www.brianchan.me/solitaire.html
   
 Sample Game:
 ```
