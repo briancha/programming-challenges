@@ -1962,26 +1962,7 @@ public class Game {
 			if (tableauToFoundation(drawnCard, AI, false, 1)) {
 				return;
 			}
-		}		
-		
-		// Offer to draw a card
-		if (!drawPile.empty() || !drawnCards.empty()) {
-			if (AI > 0) {
-				playGame(1, null, -1, true);
-				hint(AI);
-				return;
-			}
-			
-			// Hints for user
-			if (!drawPile.empty()) {
-				System.out.println("Draw a card.");
-			} else {
-				System.out.println("Draw a card. You will need to restart the draw pile.");
-			}
-			
-			print(0, false);
-			return;
-		}
+		}	
 		
 		// For the visible drawn card,
 		// see if moving a card from the foundation to tableau will allow the 
@@ -2011,6 +1992,25 @@ public class Game {
 				}
 			}
 		}
+		
+		// Offer to draw a card
+		if (!drawPile.empty() || !drawnCards.empty()) {
+			if (AI > 0) {
+				playGame(1, null, -1, true);
+				hint(AI);
+				return;
+			}
+			
+			// Hints for user
+			if (!drawPile.empty()) {
+				System.out.println("Draw a card.");
+			} else {
+				System.out.println("Draw a card. You will need to restart the draw pile.");
+			}
+			
+			print(0, false);
+			return;
+		}		
 		
 		// If user has won solitaire, no need for more hints
 		if (nKings == 4) {
